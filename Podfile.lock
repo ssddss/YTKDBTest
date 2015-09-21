@@ -1,0 +1,17 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - YTKKeyValueStore (0.1.2):
+    - FMDB (~> 2.0)
+
+DEPENDENCIES:
+  - YTKKeyValueStore
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
+
+COCOAPODS: 0.38.2

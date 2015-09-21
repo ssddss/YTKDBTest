@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  YTKStoreTest
+//
+//  Created by yurongde on 15/9/21.
+//  Copyright © 2015年 yurongde. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "YTKKeyValueStore.h"
+#import "SDDBStoreHelper.h"
+
+static NSString *const DB_Name = @"test.db";
+static NSString *const User_Table_Name = @"user_table";
+
+#define DBStore [SDDBStoreHelper shareStore]
+#endif /* PrefixHeader_pch */
